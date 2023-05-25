@@ -1,0 +1,174 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: border-box;
+
+
+
+}
+
+header {
+
+    margin: 42px 0 144px 76px;
+
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233d;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.botao-1 {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+
+}
+
+button {
+    height: 51px;
+    width: 124px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 533.83px;
+    height: 466.9px;
+    margin-left: 130px;
+    display: inline-block;
+    margin-left: 121px;
+
+
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    width: 582px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin: 52px 0px 0px 0px;
+
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    Width: 493px;
+    letter-spacing: 0.5px;
+    margin: 25px 100px 55px 0px;
+
+
+}
+
+a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    color: #6FBF44;
+    margin-bottom: 45px;
+    margin-top: 0px 0px 90px 0px;
+
+
+
+}
+
+.h1-div {
+
+    display: inline-block;
+    margin-left: 84.98px;
+    margin-top: 40px;
+
+
+
+}
+
+main {
+    display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+
+ *{
+    width: vh;
+    height:vw;
+    margin: 0 50px 0 0;
+    padding: 0;
+    font-size: border-box;
+
+ }
+
+    header {
+        display: none;
+    }
+
+    .h1-div {
+
+        display: block;
+    }
+
+    .logo-image {
+        position: absolute;
+        width: 279.92px;
+        height: 268.93px;
+        margin: 450px 0 0 59px;
+    }
+
+    h1 {
+        position: absolute;
+        width: 278px;
+        height: 60px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        /* or 100% */
+        text-align: center;
+        letter-spacing: 0.596154px;
+        margin: 52px 0px 0px -20px;
+    }
+
+    p {
+        position: absolute;
+        width: 304px;
+        height: 165px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin: 138px 100px 55px -35px;
+    }
+
+    a {
+        position: absolute;
+        width: 112px;
+        height: 27px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        margin: 316px 0 0 59px;
+    }
+
+}
+
+
